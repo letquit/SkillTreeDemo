@@ -396,6 +396,7 @@ GameObject:
   - component: {fileID: 1643068077}
   - component: {fileID: 1643068080}
   - component: {fileID: 1643068079}
+  - component: {fileID: 1643068081}
   m_Layer: 0
   m_Name: UI Manager
   m_TagString: Untagged
@@ -465,6 +466,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 95d87af5865fc7a48a5d889bb90b5004, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::UIManager
+  skillLibrary: {fileID: 11400000, guid: ca93e6f3cadbdd546832c0a2b1778a1b, type: 2}
+  uiTalentButton: {fileID: 9197481963319205126, guid: b7ef47b437bd9ac4388a1288cd66d912, type: 3}
+  _talentButtons: []
+--- !u!114 &1643068081
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1643068076}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2bd2d74640574744f9ed2785c4e6f8ee, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::UISkillDescriptionPanel
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0

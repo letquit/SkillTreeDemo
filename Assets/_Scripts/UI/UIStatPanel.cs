@@ -2,6 +2,9 @@ using System;
 using UnityEngine;
 using UnityEngine.UIElements;
 
+/// <summary>
+/// UI统计面板类，负责显示玩家的属性和技能信息
+/// </summary>
 public class UIStatPanel : MonoBehaviour
 {
     private Label _strengthLabel, _dexterityLabel, _intelligenceLabel, _wisdomLabel, _charismaLabel, _constitutionLabel;
@@ -10,6 +13,9 @@ public class UIStatPanel : MonoBehaviour
     
     private UIManager _uiManager;
 
+    /// <summary>
+    /// 初始化方法，在对象创建时调用
+    /// </summary>
     private void Awake()
     {
         _uiManager = GetComponent<UIManager>();
@@ -19,6 +25,9 @@ public class UIStatPanel : MonoBehaviour
         }
     }
 
+    /// <summary>
+    /// 开始方法，在对象初始化完成后调用
+    /// </summary>
     private void Start()
     {
         _uiManager.PlayerSkillManager.OnSkillPointsChanged += PopulateLabelText;
@@ -26,6 +35,9 @@ public class UIStatPanel : MonoBehaviour
         PopulateLabelText();
     }
 
+    /// <summary>
+    /// 获取UI标签引用，从UIDocument中查找对应的Label组件
+    /// </summary>
     private void GatherLabelReferences()
     {
         _strengthLabel = _uiManager.UIDocument.rootVisualElement.Q<Label>("StatLabel_Strength");
@@ -41,7 +53,10 @@ public class UIStatPanel : MonoBehaviour
         
         _skillPointsLabel = _uiManager.UIDocument.rootVisualElement.Q<Label>("SkillPointsLabel");
     }
-
+    
+    /// <summary>
+    /// 填充标签文本，更新所有属性和技能的显示文本
+    /// </summary>
     private void PopulateLabelText()
     {
         _strengthLabel.text = $"STR - {_uiManager.PlayerSkillManager.Strength}";

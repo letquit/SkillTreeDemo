@@ -20,7 +20,7 @@ MonoBehaviour:
   skillName: Owl's Wisdom
   overwriteDescription: 0
   skillDescription: Owl's Wisdom increases Wisdom by 20%.
-  skillIcon: {fileID: 0}
+  skillIcon: {fileID: 21300000, guid: f0629c39357539b41b5943daedb7403c, type: 3}
   skillPrerequisites:
   - {fileID: 11400000, guid: 9ae46a251c756d34bb2b7a9a44341dcc, type: 2}
   skillTier: 2

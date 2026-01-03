@@ -10,21 +10,19 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9a437d4e2c9f84b42abeee0decd72af1, type: 3}
-  m_Name: Bear's Strength
+  m_Name: Fox's Cunning
   m_EditorClassIdentifier: Assembly-CSharp::_Scripts.Skill_System.ScriptableSkill
   UpgradeData:
-  - StatType: 0
+  - StatType: 2
     SkillIncreaseAmount: 5
     IsPercentage: 0
-  - StatType: 1
-    SkillIncreaseAmount: 10
-    IsPercentage: 1
   isAbility: 0
-  skillName: Bear's Strength
+  skillName: Fox's Cunning
   overwriteDescription: 0
-  skillDescription: Bear's Strength increases Strength by 5 points(s), Dexterity
-    by 10%.
-  skillIcon: {fileID: 21300000, guid: 353e62159d22fd14285f21b80c7cdf86, type: 3}
-  skillPrerequisites: []
-  skillTier: 1
-  cost: 1
+  skillDescription: Fox's Cunning increases Intelligence by 5 points(s).
+  skillIcon: {fileID: 21300000, guid: 1d9a69fd285f0c04283bd15d539d80d0, type: 3}
+  skillPrerequisites:
+  - {fileID: 11400000, guid: 9ae46a251c756d34bb2b7a9a44341dcc, type: 2}
+  - {fileID: 11400000, guid: be1d4c422e45b74419b5660dddf1e8c5, type: 2}
+  skillTier: 3
+  cost: 5

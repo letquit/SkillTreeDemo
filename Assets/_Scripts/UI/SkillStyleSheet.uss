@@ -13,7 +13,7 @@
 .HeaderLabel {
     -unity-font-definition: url("project://database/Assets/WenYuanRoundedSC-Medium.ttf?fileID=12800000&guid=ba85c324459b8874bac813cb193554fe&type=3#WenYuanRoundedSC-Medium");
     color: rgb(255, 255, 255);
-    font-size: 55px;
+    font-size: 53px;
     -unity-text-align: middle-center;
     white-space: nowrap;
     border-left-color: rgb(255, 255, 255);
@@ -29,4 +29,32 @@
     color: rgb(255, 255, 255);
     font-size: 30px;
     -unity-text-align: middle-center;
+}
+
+.skill-button {
+    width: 128px;
+    height: 128px;
+    border-radius: 5px;
+}
+
+.skill-button:hover {
+    border-width: 5px;
+    border-color: rgb(255, 231, 98);
+}
+
+.skill-button:disabled {
+    border-width: 0;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.skill-row {
+    flex-grow: 1;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
+}
+
+.skill-tree-button {
+    -unity-font-definition: url("project://database/Assets/WenYuanRoundedSC-Medium.ttf?fileID=12800000&guid=ba85c324459b8874bac813cb193554fe&type=3#WenYuanRoundedSC-Medium");
+    font-size: 30px;
 }
