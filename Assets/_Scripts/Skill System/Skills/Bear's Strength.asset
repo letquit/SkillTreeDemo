@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a437d4e2c9f84b42abeee0decd72af1, type: 3}
+  m_Name: Bear's Strength
+  m_EditorClassIdentifier: Assembly-CSharp::_Scripts.Skill_System.ScriptableSkill
+  UpgradeData:
+  - StatType: 0
+    SkillIncreaseAmount: 5
+    IsPercentage: 0
+  - StatType: 1
+    SkillIncreaseAmount: 10
+    IsPercentage: 1
+  isAbility: 0
+  skillName: Bear's Strength
+  overwriteDescription: 0
+  skillDescription: Bear's Strength increases Strength by 5 points(s), Dexterity
+    by 10%.
+  skillIcon: {fileID: 0}
+  skillPrerequisites: []
+  skillTier: 1
+  cost: 1

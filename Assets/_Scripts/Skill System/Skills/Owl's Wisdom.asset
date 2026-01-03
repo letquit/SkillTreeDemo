@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a437d4e2c9f84b42abeee0decd72af1, type: 3}
+  m_Name: Owl's Wisdom
+  m_EditorClassIdentifier: Assembly-CSharp::_Scripts.Skill_System.ScriptableSkill
+  UpgradeData:
+  - StatType: 3
+    SkillIncreaseAmount: 20
+    IsPercentage: 1
+  isAbility: 0
+  skillName: Owl's Wisdom
+  overwriteDescription: 0
+  skillDescription: Owl's Wisdom increases Wisdom by 20%.
+  skillIcon: {fileID: 0}
+  skillPrerequisites:
+  - {fileID: 11400000, guid: 9ae46a251c756d34bb2b7a9a44341dcc, type: 2}
+  skillTier: 2
+  cost: 3
