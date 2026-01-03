@@ -1,0 +1,25 @@
+<ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/_Scripts/UI/SkillStyleSheet.uss?fileID=7433441132597879392&amp;guid=acfe598b86379714babea2de40b95c61&amp;type=3#SkillStyleSheet"/>
+    <ui:VisualElement name="MainPanel" style="flex-grow: 1; flex-direction: row; background-color: rgb(31, 31, 31);">
+        <ui:VisualElement name="StatPanel" class="StatPanel" style="-unity-slice-right: 0; border-right-width: 4px; justify-content: center;">
+            <ui:Label text="STATS" name="StatHeader" class="HeaderLabel"/>
+            <ui:Label text="STR - 00" name="StatLabel_Strength" class="StatLabel"/>
+            <ui:Label text="DEX - 00" name="StatLabel_Dexterity" class="StatLabel"/>
+            <ui:Label text="INT - 00" name="StatLabel_Intelligence" class="StatLabel"/>
+            <ui:Label text="WIS - 00" name="StatLabel_Wisdom" class="StatLabel"/>
+            <ui:Label text="CHA - 00" name="StatLabel_Charisma" class="StatLabel"/>
+            <ui:Label text="CON - 00" name="StatLabel_Constitution" class="StatLabel"/>
+            <ui:Label text="ABILITY" name="AbilityHeader" class="HeaderLabel"/>
+            <ui:Label text="DOUBLE JUMP - LOCKED" name="AbilityLabel_DoubleJump" class="StatLabel"/>
+            <ui:Label text="DASH - LOCKED" name="AbilityLabel_Dash" class="StatLabel"/>
+            <ui:Label text="TELEPORT - LOCKED" name="AbilityLabel_Teleport" class="StatLabel"/>
+            <ui:Label text="SKILL POINTS: 99" name="SkillPointsLabel" class="HeaderLabel"/>
+        </ui:VisualElement>
+        <ui:VisualElement name="SkillTree" style="flex-grow: 1;">
+            <ui:VisualElement name="Skill_RowOne" style="flex-grow: 1;"/>
+            <ui:VisualElement name="Skill_RowTwo" style="flex-grow: 1;"/>
+            <ui:VisualElement name="Skill_RowThree" style="flex-grow: 1;"/>
+        </ui:VisualElement>
+        <ui:VisualElement name="SkillDescription" class="StatPanel" style="border-left-width: 4px;"/>
+    </ui:VisualElement>
+</ui:UXML>

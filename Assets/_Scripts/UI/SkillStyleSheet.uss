@@ -1,0 +1,32 @@
+.StatPanel {
+    flex-grow: 0;
+    background-color: rgb(47, 47, 47);
+    border-right-width: 0;
+    border-right-color: rgb(255, 255, 255);
+    border-left-color: rgb(255, 255, 255);
+    -unity-slice-right: 4;
+    border-top-color: rgb(255, 255, 255);
+    border-bottom-color: rgb(255, 255, 255);
+    width: 25%;
+}
+
+.HeaderLabel {
+    -unity-font-definition: url("project://database/Assets/WenYuanRoundedSC-Medium.ttf?fileID=12800000&guid=ba85c324459b8874bac813cb193554fe&type=3#WenYuanRoundedSC-Medium");
+    color: rgb(255, 255, 255);
+    font-size: 55px;
+    -unity-text-align: middle-center;
+    white-space: nowrap;
+    border-left-color: rgb(255, 255, 255);
+    border-right-color: rgb(255, 255, 255);
+    border-top-color: rgb(255, 255, 255);
+    border-bottom-color: rgb(255, 255, 255);
+    border-bottom-width: 4px;
+    border-top-width: 4px;
+}
+
+.StatLabel {
+    -unity-font-definition: url("project://database/Assets/WenYuanRoundedSC-Medium.ttf?fileID=12800000&guid=ba85c324459b8874bac813cb193554fe&type=3#WenYuanRoundedSC-Medium");
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    -unity-text-align: middle-center;
+}
